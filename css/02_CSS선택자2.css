@@ -149,3 +149,14 @@ p[data = "data-2"]{background-color: blue;}
 #check{
     display: none; /* 표시하지 않겠다 */
 }
+
+@font-face {
+    font-family: 'MaplestoryOTFBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+    *{
+        font-family: 'MaplestoryOTFBold';
+    }
