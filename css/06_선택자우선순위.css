@@ -1,0 +1,44 @@
+div[name = "name1"]{
+    background-color: aqua;
+}
+
+
+/* 3순위 : 아이디 선택자 */
+#test1{
+    color: white; /* 안겹치면 모두 누적 */
+    height: 100px;
+    background-color: black;
+}
+
+/* 5순위 : 태그 선택자 */
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+/* 4순위 : 클래스 선택자 */
+.cls1{
+    background-color: green !important;
+}
+
+.cls1{
+    background-color: aqua !important;
+}
+
+
+/* css속성이면 태그[속성값] 이건 아예 포함 안되는거겠지? */
+
+
+
+
+@font-face {
+    font-family: 'seolleimcool-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/seolleimcool-SemiBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'seolleimcool-SemiBold';
+}
