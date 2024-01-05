@@ -18,7 +18,7 @@ div[name ~= "aaa"]{
   /* $= : 특정 값으로 끝나는 요소 선택 */
   div[class $= "2"]{
     font-style: italic;
-    font-size: 30px;
+    font-size: 60px;
   }
   
   /* *= : 특정 값을 포함하는 요소 선택 */
