@@ -25,12 +25,11 @@ body{
 }
 
 @font-face {
-    font-family: 'SUITE-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
-    font-weight: 400;
+    font-family: 'GowunBatang-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
 }
-
 header{
     padding: 15px 0;
     border-bottom: 2px solid var(--main-color);
@@ -58,12 +57,13 @@ header{
 }
 
 .header-container-left *{
-    height: 110%;
+    height: 100%;
+    width: 80%;
 }
 
-.header-container-right a{
+.header-container-right *{
     font-weight: bold;
-    color: var(--main-color);
+    color: black;
     font-size: 1em;
     margin: 0 10px;
 }
@@ -87,7 +87,7 @@ nav{
     height: 40px;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -115,8 +115,7 @@ main{
 }
 
 .banner-container{
-    height: 550px;
-    border-bottom: 2px solid var(--main-color);
+    height: 950px;
     position: relative;
 }
 
@@ -148,7 +147,7 @@ main{
 }
 
 .banner-text{
-    margin-top: 250px;
+    margin-top: 425px;
     font-size: 25px;
     color: white;
 }
