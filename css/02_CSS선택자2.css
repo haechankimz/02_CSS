@@ -34,7 +34,7 @@ p[data = "data-2"]{background-color: blue;}
 /* name 속성 값이 "name-1"인 요소 모두 선택 */
 [name= "name-1"]{font-size:  30px;}
 
-/* 그럼 id 속성값은 왜배운거지 어쩌피 모든거 저걸로 해결하면ㄷ  ㅚ잖아 */
+/* 그럼 id 속성값은 왜배운거지 어차피 모든거 저걸로 해결하면 되잖아 */
 
 /* ---- 자식 선택자 (>) ---- */
 #parent1{background-color: skyblue;}

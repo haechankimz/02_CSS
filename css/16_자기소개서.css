@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 1000px;
+    width: 1200px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container{
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headercontainer > div{
+    display: flex;
+}
+
+.header-thumbnail{
+    height: 150px;
+    width: 150px;
+}
+
+div >img{
+    height: 150px;
+    width: 150px;
+    border-radius: 30%;
+}
+
+.hiddenText {
+    opacity: 0; /* 초기에 투명하게 설정 */
+    animation-name: fade-in;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+  }
+
+.click{
+    font-weight: bold;
+    font-size: 30px;
+}
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  nav{
+    height: 1000px;
+    width: 1200px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+
+    nav >.about-container{
+        height: 200px;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+  .aboutcontainer{
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+
+
+
+
+  aside{
+    position: fixed;
+    right: 20px;
+    top: 95%;
+    transform: translateY(-50%);
+  }
